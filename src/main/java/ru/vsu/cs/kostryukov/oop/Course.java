@@ -10,4 +10,12 @@ public class Course {
         this.number = number;
         this.groups = groups;
     }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public List<Group> getGroups() {
+        return groups;
+    }
 }

@@ -1,0 +1,98 @@
+{
+  "courses": [
+    {
+      "number": 1,
+      "groups": [
+        {
+          "number": 1,
+          "week": "NUMERATOR",
+          "timetableEntries": [
+            {
+              "day": "MONDAY",
+              "time": "8:00",
+              "subject": {
+                "name": "Мат. анализ"
+              },
+              "teacher": {
+                "name": "профессор Иванов"
+              },
+              "roomNumber": 479
+            },
+            {
+              "day": "MONDAY",
+              "time": "11:30",
+              "subject": {
+                "name": "Физика"
+              },
+              "teacher": {
+                "name": "ассистент Петров"
+              },
+              "roomNumber": 292
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "week": "NUMERATOR",
+          "timetableEntries": [
+            {
+              "day": "MONDAY",
+              "time": "9:45",
+              "subject": {
+                "name": "История"
+              },
+              "teacher": {
+                "name": "доцент Сидоров"
+              },
+              "roomNumber": 505
+            },
+            {
+              "day": "TUESDAY",
+              "time": "15:10",
+              "subject": {
+                "name": "Английский язык"
+              },
+              "teacher": {
+                "name": "преподаватель Павлов"
+              },
+              "roomNumber": 477
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "groups": [
+        {
+          "number": 1,
+          "week": "DENOMINATOR",
+          "timetableEntries": [
+            {
+              "day": "WEDNESDAY",
+              "time": "18:40",
+              "subject": {
+                "name": "Программирование"
+              },
+              "teacher": {
+                "name": "старший преподаватель Сергеев"
+              },
+              "roomNumber": 479
+            },
+            {
+              "day": "THURSDAY",
+              "time": "11:30",
+              "subject": {
+                "name": "Программирование"
+              },
+              "teacher": {
+                "name": "старший преподаватель Сергеев"
+              },
+              "roomNumber": 385
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
