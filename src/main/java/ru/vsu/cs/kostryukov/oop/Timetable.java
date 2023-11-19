@@ -2,10 +2,8 @@ package ru.vsu.cs.kostryukov.oop;
 
 import com.google.gson.Gson;
 
-import java.io.FileReader;
-import java.io.IOException;
 import java.io.Reader;
-import java.util.*;
+import java.util.List;
 
 public class Timetable {
     private List<Course> courses;
@@ -37,18 +35,6 @@ public class Timetable {
                 }
             }
             System.out.println("\n");
-        }
-    }
-
-    public static void main(String[] args) {
-        String json = "timetable.json";
-        try (
-                Reader reader = new FileReader(json)
-        ) {
-            Timetable timetable = Timetable.fromJson(reader);
-            timetable.printTimetable();
-        } catch (IOException e) {
-            e.printStackTrace();
         }
     }
 }
